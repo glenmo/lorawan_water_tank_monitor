@@ -49,8 +49,8 @@ const int ADC_RESOLUTION = 1023;
 
 // Timing
 static osjob_t sendjob;
-const unsigned TX_INTERVAL = 600;  // 10 minutes (in seconds)
-// const unsigned TX_INTERVAL = 60;   // 1 minute for testing
+// const unsigned TX_INTERVAL = 600;  // 10 minutes (in seconds)
+const unsigned TX_INTERVAL = 60;   // 1 minute for testing
 
 // Track join status
 bool joined = false;
